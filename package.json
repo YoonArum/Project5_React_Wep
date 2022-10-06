@@ -18,14 +18,13 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"    
-  },
+  },"homepage": "https://yoonarum.github.io/Project5_React_Wep",
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
-  "homepage": "https://yoonarum.github.io/Project5_React_Wep",
   "browserslist": {
     "production": [
       ">0.2%",
