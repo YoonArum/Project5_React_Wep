@@ -9,12 +9,15 @@ main {
     background-color: #D9D3CC;
     display: flex;
     justify-content: space-between;
+    
     /* flex-wrap: wrap; */
 }
 main > section {
-    display: flex;
     margin: 20px;
     text-align: center;
+    display: flex;
+    width: 25%;
+    
 }
 main img {
     border-radius: 50%;
