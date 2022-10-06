@@ -1,0 +1,15 @@
+@media only screen and (max-width:600px) {
+    header > section {
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul {
+        display: none;
+    }
+
+}

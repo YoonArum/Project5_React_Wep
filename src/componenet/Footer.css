@@ -1,0 +1,27 @@
+/*전체 적용*/
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #BF9E80;
+  display: flex;
+  color: aliceblue;
+  padding: 8px;
+  justify-content: center;
+  height: 100px;
+  bottom: 0;
+  position: sticky;
+
+}
+
+footer > div,
+ul {
+    margin: 10px;
+}
+footer > ul {
+    list-style: none;
+    font-size: 12px;
+}

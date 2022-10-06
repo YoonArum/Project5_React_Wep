@@ -1,0 +1,38 @@
+/*전체 적용*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav div {
+    font-size: 25px;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: darkcyan;
+    color: white;
+}
+nav li {
+    margin: 5px;
+}
+
+nav {
+    background-color: #0C1059;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 40px;
+    top: 0;
+    position: sticky;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+
+}

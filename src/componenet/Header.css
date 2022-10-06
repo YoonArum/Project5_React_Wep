@@ -1,0 +1,28 @@
+/*전체 적용*/
+* {
+
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: #E0F2C4;
+}
+header > section {
+    display: flex;
+}
+.header_left,
+.header_right {
+    margin: 20px;
+}
+.header_left {
+    width: 80%;
+    text-align: center;
+}
+.header_right {
+    width: 80%;
+}
+
+header {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+}

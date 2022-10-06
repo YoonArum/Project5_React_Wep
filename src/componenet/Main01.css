@@ -1,0 +1,22 @@
+/*전체 적용*/
+* {
+
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px;
+    background-color: #D9D3CC;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+main > section {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+main img {
+    border-radius: 50%;
+
+}
