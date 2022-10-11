@@ -1,18 +1,15 @@
 import './Main01.css';
-import Section_Html from './Section_Html';
-import Section_Css from './Section_Css';
-import Section_JavaScript from './Section_JavaScript';
-import Section_React from './Section_React';
+import SectionContent from './SectionContent';
 
 function Main01() {
     return (
         <div>
             <main>
-
-                <Section_Html/>
-                <Section_Css/>
-                <Section_JavaScript/>
-                <Section_React/>
+                
+                <SectionContent h1 = "HTML" p="HtmlLogo" />
+                <SectionContent h1 = "CSS" p="CssLogo"/>
+                <SectionContent h1 = "JavaScript" p="JavaScriptLogo"/>
+                <SectionContent h1 = "React" p="ReactLogo"/>
 
             </main>
         </div>
